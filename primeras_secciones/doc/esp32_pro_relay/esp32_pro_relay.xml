@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\00 - INFORMACION CURSOS ESCRITORIO\PCB - Nuevos\ESP32-IOT-HUB\ESP32-IOT-HUB\esp32_pro_relay\esp32_pro_relay.kicad_sch</source>
+    <date>8/11/2022 23:54:20</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>GATEWAY IOT ESP32</title>
+        <company>IOTHOST</company>
+        <rev>v2.1</rev>
+        <date>2022-09-27</date>
+        <source>esp32_pro_relay.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BUT1">
+      <value>DTSL(6,2X6,4x2,5mm)</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2003161837_Diptronics-DTSL-61N-V-T-R_C495902.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C495902</field>
+        <field name="Manufacturer">Diptronics</field>
+        <field name="Mfr.Part #">DTSL-61N-V-T/R</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Mfr.Part #" value="DTSL-61N-V-T/R"/>
+      <property name="LCSC" value="C495902"/>
+      <property name="Manufacturer" value="Diptronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46a07127-80f2-44e9-bd1d-fb326cfad39a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>47uF/6.3V/20%/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_Murata-Electronics-GRM188R60J476ME15D_C140782.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C140782</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Mfr.Part #">GRM188R60J476ME15D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="GRM188R60J476ME15D"/>
+      <property name="LCSC" value="C140782"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e4ee5d0-6f4e-4a80-8bb5-db23c9938c12</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abc41d0d-0f35-4913-a139-eab801e8487c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Field5" value=""/>
+      <property name="Field6" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94489f09-aeea-42f5-8e0e-7520d10969e2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0,1uF/275V</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P10.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24540b78-5c5e-4d0a-94d9-2c35aa53455b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>220uF/25V(SMD,6.3x7.7mm)</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="LCSC">C696188</field>
+        <field name="Manufacturer">Honor Elec</field>
+        <field name="Mfr.Part #">RVT1E221M0607</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Mfr.Part #" value="RVT1E221M0607"/>
+      <property name="LCSC" value="C696188"/>
+      <property name="Manufacturer" value="Honor Elec"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>708a685b-967d-4d03-9318-309f0ac8064e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF/50V/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603KRX7R9BB104"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5ab027d-c024-4fc2-b6d4-af5f22597384</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>220uF/25V(SMD,6.3x7.7mm)</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="LCSC">C696188</field>
+        <field name="Manufacturer">Honor Elec</field>
+        <field name="Mfr.Part #">RVT1E221M0607</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Mfr.Part #" value="RVT1E221M0607"/>
+      <property name="LCSC" value="C696188"/>
+      <property name="Manufacturer" value="Honor Elec"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46c3821e-8418-4896-9a99-06a7215d3c3f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF/50V/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603KRX7R9BB104"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34b15d52-7e43-4f59-8d6e-5bd07ca30b71</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>47uF/6.3V/20%/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_Murata-Electronics-GRM188R60J476ME15D_C140782.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C140782</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Mfr.Part #">GRM188R60J476ME15D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="GRM188R60J476ME15D"/>
+      <property name="LCSC" value="C140782"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31dac300-ad9e-450c-93b3-4d836a4f1ed3</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22pF/50V/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C105620</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603JRNPO9BN220</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603JRNPO9BN220"/>
+      <property name="LCSC" value="C105620"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e5f4adc-4564-4076-ab0c-e95f5dd1705c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>22uF/6.3V/20%/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C109448</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603MRX5R5BB226</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603MRX5R5BB226"/>
+      <property name="LCSC" value="C109448"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10fbc7da-f6b9-4526-ae2e-47187a7a2738</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>22uF/6.3V/20%/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C109448</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603MRX5R5BB226</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603MRX5R5BB226"/>
+      <property name="LCSC" value="C109448"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a8cca8d-f1e9-4417-9b91-00ba2e5223a3</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>22uF/6.3V/20%/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C109448</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603MRX5R5BB226</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603MRX5R5BB226"/>
+      <property name="LCSC" value="C109448"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72c0eab7-bcf9-459a-80d9-6eb0f4f6cfc8</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22pF/50V/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C105620</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603JRNPO9BN220</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603JRNPO9BN220"/>
+      <property name="LCSC" value="C105620"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>add04792-8bf8-4aa5-90cc-962fc39fb080</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>22pF/50V/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C105620</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603JRNPO9BN220</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603JRNPO9BN220"/>
+      <property name="LCSC" value="C105620"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e57b529a-98cb-47a0-b3a1-ddda80ab4c63</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF/50V/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603KRX7R9BB104"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d65d8298-8fdd-4f4f-9a15-8744415220cc</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF/50V/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr.Part #" value="CC0603KRX7R9BB104"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>799c33dc-23c5-4f5b-b05c-2173521fec59</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819S4(SOD-123)</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2112011530_JSMSEMI-1N5819W_C963381.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C963381</field>
+        <field name="Mfr.Part ">1N5819W</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Mfr.Part " value="1N5819W"/>
+      <property name="LCSC" value="C963381"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55f08fc9-b5de-42a8-96bf-a80ac92cd8f7</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819S4(SOD-123)</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2112011530_JSMSEMI-1N5819W_C963381.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C963381</field>
+        <field name="Mfr.Part ">1N5819W</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Mfr.Part " value="1N5819W"/>
+      <property name="LCSC" value="C963381"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0520d02f-29a8-48aa-b752-ba7c3b133ab6</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SS54/SMA(DO-214AC)</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-SS54A_C2827918.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2827918</field>
+        <field name="Manufacturer">Guangdong Hottech</field>
+        <field name="Mfr.Part #">SS54A</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Mfr.Part #" value="SS54A"/>
+      <property name="LCSC" value="C2827918"/>
+      <property name="Manufacturer" value="Guangdong Hottech"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8470a54-206b-4781-ac03-afab21612715</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N5819S4(SOD-123)</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2112011530_JSMSEMI-1N5819W_C963381.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C963381</field>
+        <field name="Mfr.Part ">1N5819W</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Mfr.Part " value="1N5819W"/>
+      <property name="LCSC" value="C963381"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eb0c3c3-9781-4299-b3e5-07a9fba10f6b</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N5819S4(SOD-123)</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2112011530_JSMSEMI-1N5819W_C963381.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C963381</field>
+        <field name="Mfr.Part ">1N5819W</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Mfr.Part " value="1N5819W"/>
+      <property name="LCSC" value="C963381"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3921c854-ee67-4e21-b257-414955fcab26</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BAT54C(SOT23-3)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BAT54C-215_C37704.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C37704</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BAT54C,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAT54C" description="dual schottky barrier diode, common cathode"/>
+      <property name="Mfr.Part #" value="BAT54C,215"/>
+      <property name="LCSC" value="C37704"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50e244b4-74d9-4d32-9c02-a52009d82e56</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BAT54C(SOT23-3)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BAT54C-215_C37704.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C37704</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BAT54C,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAT54C" description="dual schottky barrier diode, common cathode"/>
+      <property name="Mfr.Part #" value="BAT54C,215"/>
+      <property name="LCSC" value="C37704"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>930db460-be38-4657-b2ab-a0dadb974c6b</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>SS34/40V/3A (SMA)</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Slkor-SLKORMICRO-Elec--SS34_C408258.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C408258</field>
+        <field name="Manufacturer">Slkor(SLKORMICRO Elec.)</field>
+        <field name="Mfr.Part #">SS34</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Mfr.Part #" value="SS34"/>
+      <property name="LCSC" value="C408258"/>
+      <property name="Manufacturer" value="Slkor(SLKORMICRO Elec.)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06f697d5-7229-46d3-9f33-fbc1bbab3e05</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>RGB/120°/L1210</value>
+      <footprint>LED_SMD:LED_RGB_1210</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2101041032_XINGLIGHT-XL-3227RGB-RF_C965844.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965844</field>
+        <field name="Manufacturer">XINGLIGHT</field>
+        <field name="Mfr.Part #">XL-3227RGB-RF</field>
+      </fields>
+      <libsource lib="Device" part="LED_RGAB" description="RGB LED, red/green/anode/blue"/>
+      <property name="Mfr.Part #" value="XL-3227RGB-RF"/>
+      <property name="LCSC" value="C965844"/>
+      <property name="Manufacturer" value="XINGLIGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>873166eb-a2be-4510-ba6e-9dd9d07da2aa</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>0.5-1A</value>
+      <footprint>Fuse:Fuseholder_Littelfuse_445_030_series_5x20mm</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ce0dd01-6620-43f8-a0ea-6752650b0afb</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>3.2mm_M3_Pad_Via</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>334f4f7f-1005-4412-b7de-7fe0918bf3fc</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>3.2mm_M3_Pad_Via</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30d3327f-384e-44e5-a643-e3119da0ba75</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>3.2mm_M3_Pad_Via</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efd1f37f-acf5-4a26-9549-9ae0c97043f5</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>3.2mm_M3_Pad_Via</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39bd4191-71cd-4e94-9016-042155e69840</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x20</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83320698-92d0-4c4b-b87b-ec733fdd9e58</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x14</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-14-5.0-H_1x14_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x14" description="Generic screw terminal, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c47b3c2f-89c5-4ad7-be06-b647134abe9e</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>FB0805/1.5A</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2010201505_Murata-Electronics-LQM21PN1R0MGHL_C703134.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C343191</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Mfr.Part #">LQM21PN1R0MGHL</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Mfr.Part #" value="LQM21PN1R0MGHL"/>
+      <property name="LCSC" value="C343191"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82c8003b-1f1e-4dc5-af0f-07063a41364f</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>470uH/3A(SMD,12.3x12.3x8mm)</value>
+      <footprint>Inductor_SMD:L_12x12mm_H8mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201121400_SHOU-HAN-CYH127-33UH_C2929502.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2929502</field>
+        <field name="Manufacturer">SHOU HAN</field>
+        <field name="Mfr.Part #">CYH127-33UH</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Mfr.Part #" value="CYH127-33UH"/>
+      <property name="LCSC" value="C2929502"/>
+      <property name="Manufacturer" value="SHOU HAN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59d442a5-6b69-4304-944d-8525d81f0a24</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>2.2uH/2.3A(SMD,4.5x4x3.2mm)</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN4018</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201121400_SHOU-HAN-CY43-2-2UH_C2929416.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2929416</field>
+        <field name="Manufacturer">SHOU HAN</field>
+        <field name="Mfr.Part #">CY43-2.2UH</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Mfr.Part #" value="CY43-2.2UH"/>
+      <property name="LCSC" value="C2929416"/>
+      <property name="Manufacturer" value="SHOU HAN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>754422be-d88e-4be0-88ca-4a4d3d4c16ce</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>HLK-PM12</value>
+      <footprint>Converter_ACDC:CONV_HLK-5M05</footprint>
+      <datasheet>http://www.hlktech.net/product_detail.php?ProId=56</datasheet>
+      <libsource lib="Converter_ACDC" part="HLK-PM12" description="Compact AC/DC board mount power module 3W 12V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e857608-87cc-43d0-9cfc-1994ba38859b</tstamps>
+    </comp>
+    <comp ref="PS2">
+      <value>HLK-PM12</value>
+      <footprint>Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx</footprint>
+      <datasheet>http://www.hlktech.net/product_detail.php?ProId=56</datasheet>
+      <libsource lib="Converter_ACDC" part="HLK-PM12" description="Compact AC/DC board mount power module 3W 12V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b238ca8-096e-4463-b750-f06259bb1f15</tstamps>
+    </comp>
+    <comp ref="PW_LD1">
+      <value>LED/RED/0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Yongyu-Photoelectric-SZYY0603R_C434419.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C434419</field>
+        <field name="Manufacturer">Yongyu Photoelectric</field>
+        <field name="Mfr.Part #">SZYY0603R</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Mfr.Part #" value="SZYY0603R"/>
+      <property name="LCSC" value="C434419"/>
+      <property name="Manufacturer" value="Yongyu Photoelectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b417c644-6f98-4caf-bc75-99bd619cd826</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817-40/(SOT23)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BC817-40-215_C52801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52801</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BC817-40,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Mfr.Part #" value="BC817-40,215"/>
+      <property name="LCSC" value="C52801"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a38b66e-ba72-4598-9cb4-3e66d6805816</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817-40/(SOT23)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BC817-40-215_C52801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52801</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BC817-40,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Mfr.Part #" value="BC817-40,215"/>
+      <property name="LCSC" value="C52801"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28703ed7-88c9-4f68-ac21-0652f45ca567</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC817-40/(SOT23)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BC817-40-215_C52801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52801</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BC817-40,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Mfr.Part #" value="BC817-40,215"/>
+      <property name="LCSC" value="C52801"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0ebf22d-dc0c-4f82-a23a-18c1898dddd8</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BC817-40/(SOT23)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BC817-40-215_C52801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52801</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BC817-40,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Mfr.Part #" value="BC817-40,215"/>
+      <property name="LCSC" value="C52801"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ac34247-632e-4797-b778-f5c0207f1126</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>WPM2015(SOT23-3L)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C2830124</field>
+        <field name="Mfr.Part">WPM2015-MS</field>
+        <field name="PIN">1-GATE 2- SOURCE 3- DRAIN</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
+      <property name="PIN" value="1-GATE 2- SOURCE 3- DRAIN"/>
+      <property name="Mfr.Part" value="WPM2015-MS"/>
+      <property name="LCSC" value="C2830124"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11bad54f-5b9e-4f26-add9-3c853cd4880a</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BC817-40/(SOT23)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BC817-40-215_C52801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52801</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BC817-40,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Mfr.Part #" value="BC817-40,215"/>
+      <property name="LCSC" value="C52801"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11e3e14c-338c-4935-b0c0-71992807f2ad</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>BC817-40/(SOT23)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BC817-40-215_C52801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52801</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BC817-40,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Mfr.Part #" value="BC817-40,215"/>
+      <property name="LCSC" value="C52801"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02e33260-105d-4ed1-8256-bf71c7791256</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>BC817-40/(SOT23)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141223_Nexperia-BC817-40-215_C52801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52801</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part #">BC817-40,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Mfr.Part #" value="BC817-40,215"/>
+      <property name="LCSC" value="C52801"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c42119bb-1ec2-4ea1-bc9d-9e495f8205e3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K0/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-071KL"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77cb7ce2-de2c-4e69-9cca-bac8b7a6bb5f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>391babe4-0b2f-4c4c-a037-66f4469fe15f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2K2/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C113303</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603JR-072K2L"/>
+      <property name="LCSC" value="C113303"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95b24b04-1f2e-48ad-b29b-17556060726f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K0/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-071KL"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ed4ccb1-b77e-4322-a15a-bcd140f64a9e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2ad03b2-b3b3-40ec-9d20-eede7967507e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2K2/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C113303</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603JR-072K2L"/>
+      <property name="LCSC" value="C113303"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e72e2e14-66a7-46b2-a33a-272ef6160733</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>220R/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061813_YAGEO-RC0603FR-0710RL_C109318.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114683</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603JR-07220RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603JR-07220RL"/>
+      <property name="LCSC" value="C114683"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aff9c16a-6914-4f1b-b76c-274c53994e76</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60dbcb34-3375-4a16-a2ee-782b126a8a26</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ad64849-f457-4820-9ed8-0bb00b3082bc</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51cd9401-762e-4672-a6fe-7e4eb6be2cb3</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10R/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061813_YAGEO-RC0603FR-0710RL_C109318.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C109318</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-0710RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-0710RL"/>
+      <property name="LCSC" value="C109318"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f44e6213-f48d-4f84-962d-437e2a720fdf</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>220R/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061813_YAGEO-RC0603FR-0710RL_C109318.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114683</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603JR-07220RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603JR-07220RL"/>
+      <property name="LCSC" value="C114683"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83f4efdb-247e-47c5-a649-3c1dbe758e05</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65335fcf-bc9d-4636-8d49-ae1474d27dc9</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b5c5288-d852-4d13-b0f9-9f1838dfc7e5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3beeaf1b-c8d8-406c-9f2f-589ce89734f2</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1K0/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-071KL"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3d4f8e8-a38e-4c10-9cf3-52af11e9b00b</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1K0/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-071KL"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8219c22d-fbd9-4a5d-a90f-ccc987adbc8a</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>220R/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061813_YAGEO-RC0603FR-0710RL_C109318.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114683</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603JR-07220RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603JR-07220RL"/>
+      <property name="LCSC" value="C114683"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be1a0087-03af-48f8-9082-6d67939f82a2</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4K7/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7fd6e0f-b39b-464e-ba94-7b666e02f6c9</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C99198</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C99198"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b84f6c8-23f9-42ce-b66a-a82623d34240</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>2K2/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C113303</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603JR-072K2L"/>
+      <property name="LCSC" value="C113303"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64361cab-dc14-4b5d-aa3b-650595a53b11</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1K0/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-071KL"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd058671-41d6-4722-90e0-312d249c5250</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02ffc3f1-5a9a-4946-98ea-a318e4b488ce</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1K0/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-071KL"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2063f28c-40bf-4560-8c00-947b15e22f5c</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de43bbf8-8a6b-4a8e-9aea-065283cdc65d</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1K0/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22548</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-071KL"/>
+      <property name="LCSC" value="C22548"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f33e55d5-0aa5-4d35-b037-cc8f9a2865df</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081617_YAGEO-RC0603JR-0710KL_C99198.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2930027</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part" value="RC0603JR-0710KL"/>
+      <property name="LCSC" value="C2930027"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63438941-b589-434c-b605-ae439a037ac9</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>470R/R0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810161617_YAGEO-RC0603FR-07470RL_C114669.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114669</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-07470RL"/>
+      <property name="LCSC" value="C114669"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19889a49-71d2-4282-8ec1-09eb693372af</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>470R/R0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810161617_YAGEO-RC0603FR-07470RL_C114669.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114669</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-07470RL"/>
+      <property name="LCSC" value="C114669"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>299a8cdd-3bd3-49ff-aea0-b9f95abf0347</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>470R/R0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810161617_YAGEO-RC0603FR-07470RL_C114669.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114669</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-07470RL"/>
+      <property name="LCSC" value="C114669"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d174e1f-ceb2-48bf-ab15-e5b998abfef0</tstamps>
+    </comp>
+    <comp ref="Ra1">
+      <value>220K/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061813_YAGEO-RC0603FR-0710RL_C109318.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C228160</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">AC0603JR-07220KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="AC0603JR-07220KL"/>
+      <property name="LCSC" value="C228160"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a1bf882-f467-4f8f-9dca-5f62c3a6f6a9</tstamps>
+    </comp>
+    <comp ref="Rb1">
+      <value>49.9K/1%/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061813_YAGEO-RC0603FR-0710RL_C109318.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114624</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part #">RC0603FR-0749K9L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr.Part #" value="RC0603FR-0749K9L"/>
+      <property name="LCSC" value="C114624"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72f172f6-78c3-4ffb-ba90-cd1971ea2d18</tstamps>
+    </comp>
+    <comp ref="REL0A1">
+      <value>FINDER-36.11</value>
+      <footprint>Relay_THT:Relay_SPDT_Finder_36.11</footprint>
+      <datasheet>https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf</datasheet>
+      <libsource lib="Relay" part="FINDER-36.11" description="FINDER 36.11, SPDT relay, 10A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42e79d1b-020d-4da0-8c5e-a631cd6ec42c</tstamps>
+    </comp>
+    <comp ref="REL1B1">
+      <value>FINDER-36.11</value>
+      <footprint>Relay_THT:Relay_SPDT_Finder_36.11</footprint>
+      <datasheet>https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf</datasheet>
+      <libsource lib="Relay" part="FINDER-36.11" description="FINDER 36.11, SPDT relay, 10A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71d0a894-e82d-434a-b2c3-c1fff2097729</tstamps>
+    </comp>
+    <comp ref="RL_LD1">
+      <value>LED/ORANGE/0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Yongyu-Photoelectric-SZYY0603O_C434425.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C434425</field>
+        <field name="Manufacturer">Yongyu Photoelectric</field>
+        <field name="Mfr.Part #">SZYY0603O</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Mfr.Part #" value="SZYY0603O"/>
+      <property name="Manufacturer" value="Yongyu Photoelectric"/>
+      <property name="LCSC" value="C434425"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcd17c63-e664-4867-ab82-32092c6bc30b</tstamps>
+    </comp>
+    <comp ref="RL_LD2">
+      <value>LED/ORANGE/0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Yongyu-Photoelectric-SZYY0603O_C434425.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C434425</field>
+        <field name="Manufacturer">Yongyu Photoelectric</field>
+        <field name="Mfr.Part #">SZYY0603O</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Mfr.Part #" value="SZYY0603O"/>
+      <property name="Manufacturer" value="Yongyu Photoelectric"/>
+      <property name="LCSC" value="C434425"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c194c0e1-f628-4228-aafc-ef6cb53423a7</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>RA1206_(4X0603)_4B8_2.2K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101933_YAGEO-YC164-JR-072K2L_C136829.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C136829</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfr.Part">YC164-JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04_Split" description="4 resistor network, parallel topology, split"/>
+      <property name="Mfr.Part" value="YC164-JR-072K2L"/>
+      <property name="LCSC" value="C136829"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb9ed072-3f5c-4fe0-acd0-8cb6dcf1ac58 f6ca3645-bf38-4aa8-9852-64efc5450e5d c63738f0-66c5-4c01-8dc7-79ff1977b4cf 36b75d79-1fd3-4a9e-aefb-944107f1f7de</tstamps>
+    </comp>
+    <comp ref="RST2">
+      <value>DTSL(6,2X6,4x2,5mm)</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2003161837_Diptronics-DTSL-61N-V-T-R_C495902.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C495902</field>
+        <field name="Manufacturer">Diptronics</field>
+        <field name="Mfr.Part #">DTSL-61N-V-T/R</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Mfr.Part #" value="DTSL-61N-V-T/R"/>
+      <property name="LCSC" value="C495902"/>
+      <property name="Manufacturer" value="Diptronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>610230f6-838c-425c-8e43-a2494f66f6ed</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10D561</value>
+      <footprint>Varistor:RV_Disc_D9mm_W5.2mm_P5mm</footprint>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25b61a13-1f6f-4a04-9eef-15448a14668f</tstamps>
+    </comp>
+    <comp ref="SD_CARD1">
+      <value>MicroSD card (TF card)</value>
+      <footprint>Connector_Card:microSD_HC_Molex_104031-0811</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/693072010801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C585350</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Mfr.Part">1040310811</field>
+      </fields>
+      <libsource lib="Connector" part="Micro_SD_Card" description="Micro SD Card Socket"/>
+      <property name="Mfr.Part" value="1040310811"/>
+      <property name="LCSC" value="C585350"/>
+      <property name="Manufacturer" value="MOLEX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61f28934-3bb2-4a6e-a50b-dcd536fa97dc</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-WROOM-32</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2108131730_Espressif-Systems-ESP32-WROOM-32_C82899.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82899</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="Mfr.Part #">ESP32-WROOM-32</field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP32-WROOM-32" description="RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
+      <property name="Mfr.Part #" value="ESP32-WROOM-32"/>
+      <property name="LCSC" value="C82899"/>
+      <property name="Manufacturer" value="Espressif Systems"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b09b08b0-fcdb-41c5-9234-8ccba8643d10</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SY8089AAAC(SOT23-5)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2108261630_Silergy-Corp-SY8089AAAC_C78988.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C78988</field>
+        <field name="Mfr.Part">SY8089AAAC</field>
+      </fields>
+      <libsource lib="MIOS_Library" part="SY8089AAAC" description=""/>
+      <property name="Mfr.Part" value="SY8089AAAC"/>
+      <property name="LCSC" value="C78988"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c3e81b6-131b-4266-9391-660a743a8ef2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM2596S-5/TO263-5</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2009241904_HGSEMI-LM2596S-5-0-TR_C194349.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C194349</field>
+        <field name="Manufacturer">HGSEMI</field>
+        <field name="Mfr.Part #">LM2596S-5.0/TR</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="LM2596S-5" description="5V 3A Step-Down Voltage Regulator, TO-263"/>
+      <property name="Mfr.Part #" value="LM2596S-5.0/TR"/>
+      <property name="LCSC" value="C194349"/>
+      <property name="Manufacturer" value="HGSEMI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bb3c85d-9c3e-4421-8a9b-fb4c0cdea856</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>CH340T(SSOP20W)</value>
+      <footprint>Package_SO:SSOP-20_5.3x7.2mm_P0.65mm</footprint>
+      <datasheet>https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C8689</field>
+        <field name="Mfr.Part">CH340T</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CH340T" description="USB serial converter, UART, SSOP-20"/>
+      <property name="Mfr.Part" value="CH340T"/>
+      <property name="LCSC" value="C8689"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec2a8316-8ea3-43de-ac2e-42982bbd50f1</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>W5500_MINI_E</value>
+      <footprint>Connector_RJ:W5500_mini</footprint>
+      <libsource lib="Interface_Ethernet" part="W5500_MINI_E" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3a33d30-6c3a-49b1-951b-4c1e59be0fdc</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>DS18S20</value>
+      <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="DS18S20" description="High-Precision 1-Wire Digital Thermometer TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fa4189c-2f62-4787-b011-66b09c46cce1</tstamps>
+    </comp>
+    <comp ref="USB1">
+      <value>USB_B_MicroQTJ</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811131824_MOLEX-1050170001_C136000.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C136000</field>
+        <field name="Mfr.Part">1050170001</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Mfr.Part" value="1050170001"/>
+      <property name="LCSC" value="C136000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b261315-72d2-49e6-aeb7-f136b2065cd7</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz/HC-49SM(SMD)</value>
+      <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
+      <fields>
+        <field name="LCSC">C14871</field>
+        <field name="Manufacturer">Yangxing Tech</field>
+        <field name="Mfr.Part #">X49SM12MSD2SC</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Mfr.Part #" value="X49SM12MSD2SC"/>
+      <property name="LCSC" value="C14871"/>
+      <property name="Manufacturer" value="Yangxing Tech"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_pro_relay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>925b5de6-1787-4751-b902-184bb9d52e8c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card</field>
+        <field name="Datasheet">http://katalog.we-online.de/em/datasheet/693072010801.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+        <pin num="10" name="CHASIS" type="passive"/>
+        <pin num="11" name="CHASIS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x14">
+      <description>Generic screw terminal, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_ACDC" part="HLK-PM12">
+      <description>Compact AC/DC board mount power module 3W 12V</description>
+      <docs>http://www.hlktech.net/product_detail.php?ProId=56</docs>
+      <footprints>
+        <fp>Converter*ACDC*HiLink*HLK?PM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">HLK-PM12</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx</field>
+        <field name="Datasheet">http://www.hlktech.net/product_detail.php?ProId=56</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/L" type="power_in"/>
+        <pin num="2" name="AC/N" type="power_in"/>
+        <pin num="3" name="-Vout" type="power_out"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_RGAB">
+      <description>RGB LED, red/green/anode/blue</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RGAB</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="GK" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="BK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GDS">
+      <description>P-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04_Split">
+      <description>4 resistor network, parallel topology, split</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04_Split</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT54C">
+      <description>dual schottky barrier diode, common cathode</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds11005.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54C</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds11005.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Ethernet" part="W5500_MINI_E">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W5500_MINI_E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="MOSI" type="bidirectional"/>
+        <pin num="4" name="CLK" type="bidirectional"/>
+        <pin num="5" name="CS" type="bidirectional"/>
+        <pin num="6" name="INT" type="bidirectional"/>
+        <pin num="7" name="MISO" type="bidirectional"/>
+        <pin num="8" name="RESET" type="bidirectional"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="VIN3V3" type="power_in"/>
+        <pin num="11" name="VIN3V3" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CH340T">
+      <description>USB serial converter, UART, SSOP-20</description>
+      <docs>https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF</docs>
+      <footprints>
+        <fp>SSOP*5.3x7.2mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340T</field>
+        <field name="Footprint">Package_SO:SSOP-20_5.3x7.2mm_P0.65mm</field>
+        <field name="Datasheet">https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CKOH" type="output"/>
+        <pin num="2" name="CKOL" type="output"/>
+        <pin num="3" name="TXD" type="output"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="V3" type="passive"/>
+        <pin num="6" name="UD+" type="bidirectional"/>
+        <pin num="7" name="UD-" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="XI" type="input"/>
+        <pin num="10" name="XO" type="output"/>
+        <pin num="11" name="~{CTS}" type="input"/>
+        <pin num="12" name="~{DSR}" type="input"/>
+        <pin num="13" name="~{RI}" type="input"/>
+        <pin num="14" name="~{DCD}" type="input"/>
+        <pin num="15" name="~{DTR}" type="output"/>
+        <pin num="16" name="~{RTS}" type="output"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="R232" type="input"/>
+        <pin num="19" name="VCC" type="power_in"/>
+        <pin num="20" name="~{NOS}" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIOS_Library" part="SY8089AAAC">
+      <docs>https://datasheet.lcsc.com/lcsc/2108261630_Silergy-Corp-SY8089AAAC_C78988.pdf</docs>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">SY8089AAAC(SOT23-5)</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2108261630_Silergy-Corp-SY8089AAAC_C78988.pdf</field>
+        <field name="Mfr.Part">SY8089AAAC</field>
+        <field name="LCSC">C78988</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="LX" type="power_out"/>
+        <pin num="4" name="IN" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-WROOM-32">
+      <description>RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="IO25" type="bidirectional"/>
+        <pin num="11" name="IO26" type="bidirectional"/>
+        <pin num="12" name="IO27" type="bidirectional"/>
+        <pin num="13" name="IO14" type="bidirectional"/>
+        <pin num="14" name="IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="bidirectional"/>
+        <pin num="17" name="SHD/SD2" type="bidirectional"/>
+        <pin num="18" name="SWP/SD3" type="bidirectional"/>
+        <pin num="19" name="SCS/CMD" type="bidirectional"/>
+        <pin num="20" name="SCK/CLK" type="bidirectional"/>
+        <pin num="21" name="SDO/SD0" type="bidirectional"/>
+        <pin num="22" name="SDI/SD1" type="bidirectional"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0/IO3" type="bidirectional"/>
+        <pin num="35" name="TXD0/IO1" type="bidirectional"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2596S-5">
+      <description>5V 3A Step-Down Voltage Regulator, TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2596.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2596S-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2596.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~{ON}/OFF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="FINDER-36.11">
+      <description>FINDER 36.11, SPDT relay, 10A</description>
+      <docs>https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*Finder*36.11*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">FINDER-36.11</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_Finder_36.11</field>
+        <field name="Datasheet">https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf</field>
+      </fields>
+      <pins>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="A1" name="" type="passive"/>
+        <pin num="A2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="DS18S20">
+      <description>High-Precision 1-Wire Digital Thermometer TO-92</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf</docs>
+      <footprints>
+        <fp>TO*92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS18S20</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="DQ" type="bidirectional"/>
+        <pin num="3" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Converter_ACDC">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Converter_ACDC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Ethernet">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_Ethernet.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="MIOS_Library">
+      <uri>C:/Users/yamir-hidalgo/Documents/KiCad/6.0/symbols/MIOS_Library.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Relay.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Temperature.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J2" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN1" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="RN1" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="R4.1" pintype="passive"/>
+      <node ref="Ra1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="VIN3V3" pintype="power_in"/>
+      <node ref="U5" pin="11" pinfunction="VIN3V3" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J2" pin="40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="PW_LD1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="REL0A1" pin="A1" pintype="passive"/>
+      <node ref="REL1B1" pin="A1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="/+5V_USB">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="VCC" pintype="power_in"/>
+      <node ref="USB1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="4" name="/AC_L">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/AC_N">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="PS1" pin="2" pinfunction="AC/N" pintype="power_in"/>
+      <node ref="PS2" pin="2" pinfunction="AC/N" pintype="power_in"/>
+      <node ref="RV1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/COM0">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="REL0A1" pin="11" pintype="passive"/>
+    </net>
+    <net code="8" name="/COM1">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="REL1B1" pin="11" pintype="passive"/>
+    </net>
+    <net code="9" name="/D_COM">
+      <node ref="D6" pin="3" pintype="passive"/>
+      <node ref="D7" pin="3" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/ESP_EN">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="RST2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="11" name="/GPI34">
+      <node ref="J2" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IO34" pintype="input"/>
+    </net>
+    <net code="12" name="/GPI35">
+      <node ref="J2" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IO35" pintype="input"/>
+    </net>
+    <net code="13" name="/GPI36{slash}S_VP">
+      <node ref="J2" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SENSOR_VP" pintype="input"/>
+    </net>
+    <net code="14" name="/GPI39{slash}S_VN">
+      <node ref="J2" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SENSOR_VN" pintype="input"/>
+    </net>
+    <net code="15" name="/GPIO0">
+      <node ref="D6" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/GPIO1{slash}U0TXD">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="TXD0/IO1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/GPIO2{slash}HS2_DATA0">
+      <node ref="D7" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="RN1" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/GPIO3{slash}U0RXD">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="RXD0/IO3" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/GPIO4">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/GPIO5">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/GPIO6">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="SCK/CLK" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/GPIO7">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="SDO/SD0" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/GPIO8">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="SDI/SD1" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/GPIO9">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="SHD/SD2" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/GPIO10">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="SWP/SD3" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/GPIO11">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="SCS/CMD" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/GPIO12">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/GPIO13">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="IO13" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="DQ" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/GPIO14{slash}HS2_CLK">
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/GPIO15{slash}HS2_CMD">
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="SD_CARD1" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="U1" pin="23" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/GPIO16{slash}U2RXD">
+      <node ref="J2" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/GPIO17{slash}U2TXD">
+      <node ref="J2" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/GPIO18{slash}VS_SCK">
+      <node ref="J2" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="CLK" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/GPIO19{slash}VS_MISO">
+      <node ref="J2" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+      <node ref="U5" pin="7" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/GPIO21{slash}VS_CS">
+      <node ref="J2" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="IO21" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="CS" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/GPIO22">
+      <node ref="J2" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/GPIO23{slash}VS_MOSI">
+      <node ref="J2" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="IO23" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/GPIO25{slash}RGB_R">
+      <node ref="J2" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/GPIO26{slash}RGB_G">
+      <node ref="J2" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="IO26" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/GPIO27{slash}RGB_B">
+      <node ref="J2" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IO27" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/GPIO32{slash}REL1">
+      <node ref="J2" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="IO32" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/GPIO33{slash}REL2">
+      <node ref="J2" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IO33" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/NC0">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="REL0A1" pin="12" pintype="passive"/>
+    </net>
+    <net code="44" name="/NC1">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="REL1B1" pin="12" pintype="passive"/>
+    </net>
+    <net code="45" name="/NO0">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="REL0A1" pin="14" pintype="passive"/>
+    </net>
+    <net code="46" name="/NO1">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="REL1B1" pin="14" pintype="passive"/>
+    </net>
+    <net code="47" name="/PWR1">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="48" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J2" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="J2" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J2" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="PS1" pin="3" pinfunction="-Vout" pintype="power_out"/>
+      <node ref="PS2" pin="3" pinfunction="-Vout" pintype="power_out"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="RST2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Rb1" pin="2" pintype="passive"/>
+      <node ref="SD_CARD1" pin="10" pinfunction="CHASIS" pintype="passive"/>
+      <node ref="SD_CARD1" pin="11" pinfunction="CHASIS" pintype="passive"/>
+      <node ref="SD_CARD1" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="SD_CARD1" pin="9" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="USB1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="USB1" pin="6" pinfunction="Shield" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(BUT1-Pad1)">
+      <node ref="BUT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(BUT1-Pad2)">
+      <node ref="BUT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SD_CARD1" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="52" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="AC/L" pintype="power_in"/>
+      <node ref="PS2" pin="1" pinfunction="AC/L" pintype="power_in"/>
+      <node ref="RV1" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="PS1" pin="4" pinfunction="+Vout" pintype="power_out"/>
+      <node ref="PS2" pin="4" pinfunction="+Vout" pintype="power_out"/>
+      <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="54" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="Ra1" pin="1" pintype="passive"/>
+      <node ref="Rb1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="XI" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="XO" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="V3" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="REL0A1" pin="A2" pintype="passive"/>
+      <node ref="RL_LD1" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="REL1B1" pin="A2" pintype="passive"/>
+      <node ref="RL_LD2" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="61" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="63" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D9-Pad4)">
+      <node ref="D9" pin="4" pinfunction="BK" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(L3-Pad1)">
+      <node ref="L3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="LX" pintype="power_out"/>
+    </net>
+    <net code="67" name="Net-(PW_LD1-Pad1)">
+      <node ref="PW_LD1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="72" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="74" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(Q8-Pad3)">
+      <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="RL_LD1" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="RL_LD2" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SD_CARD1" pin="5" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="84" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="SD_CARD1" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="Net-(RN1-Pad5)">
+      <node ref="RN1" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="SD_CARD1" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="Net-(RN1-Pad6)">
+      <node ref="RN1" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="SD_CARD1" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="Net-(RN1-Pad7)">
+      <node ref="RN1" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="SD_CARD1" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="UD+" pintype="bidirectional"/>
+      <node ref="USB1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="UD-" pintype="bidirectional"/>
+      <node ref="USB1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(D6-Pad1)">
+      <node ref="D6" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(D7-Pad2)">
+      <node ref="D7" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U1-Pad32)">
+      <node ref="U1" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="CKOH" pintype="output+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="CKOL" pintype="output+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U4-Pad11)">
+      <node ref="U4" pin="11" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U4-Pad12)">
+      <node ref="U4" pin="12" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U4-Pad13)">
+      <node ref="U4" pin="13" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U4-Pad14)">
+      <node ref="U4" pin="14" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U4-Pad17)">
+      <node ref="U4" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U4-Pad18)">
+      <node ref="U4" pin="18" pinfunction="R232" pintype="input+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U4-Pad20)">
+      <node ref="U4" pin="20" pinfunction="~{NOS}" pintype="input+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U5-Pad6)">
+      <node ref="U5" pin="6" pinfunction="INT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U5-Pad8)">
+      <node ref="U5" pin="8" pinfunction="RESET" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U5-Pad9)">
+      <node ref="U5" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(USB1-Pad4)">
+      <node ref="USB1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
