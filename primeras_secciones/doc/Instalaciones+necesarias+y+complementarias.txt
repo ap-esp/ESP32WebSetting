@@ -1,0 +1,39 @@
+## Visual Studio Code
+https://code.visualstudio.com/
+
+## Postman
+https://www.postman.com/downloads/
+
+## Nodejs
+https://nodejs.org/es
+
+## Docker Desktop
+https://www.docker.com/get-started/
+
+## Cliente MQTT
+https://mqttx.app/
+
+## Extensiones de VSCode
+#Theme
+https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
+#Icons
+https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
+#Platformio IDE
+https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide
+
+#Docker
+https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+#Better DockerFile Syntax
+https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax
+#Dev Containers
+https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+#ENV
+https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
+#Path Intellisense
+https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+#Prettier - Code formatter
+https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+##Extensiones para Google o Brave
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es
