@@ -1,0 +1,12 @@
+{
+  "name": "esp32websetting",
+  "version": "1.0.0",
+  "description": "Estructura del proyecto/curso de Udemy",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
